@@ -1,5 +1,12 @@
 #!/usr/bin/python
 
+'''Like ksops, but in Python.
+
+This is a drop-in replacement for ksops, but doesn't require you to 
+compile anything or worry about version compatability between your
+plugin and your kustomize binary.
+'''
+
 import argparse
 import subprocess
 import sys
